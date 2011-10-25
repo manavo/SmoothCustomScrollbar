@@ -35,4 +35,4 @@ Philip
 
 
 ## Current TODO List
-Improve this README to support proper markdown and be formatted nicely.
+* Figure out how to improve overriding the colors of the scrollbar and scrollbar track (so it doesn't need the !important in the CSS class rule)
