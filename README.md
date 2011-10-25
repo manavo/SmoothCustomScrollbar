@@ -1,4 +1,4 @@
-SmoothCustomScrollbar
+# SmoothCustomScrollbar
 
 Made by Philip Manavopoulos, 2011
 
@@ -6,7 +6,7 @@ I found myself wanting to have completely customized scrollbars in a site I was 
 
 After noticing that Facebook came up with a better solution, I figured I'd make a simple plugin to offer just that. Uses native scrolling, just adds a few more containers to hide the actual scrollbar, and add some elemnets needed for the custom scrollbar.
 
-Examples:
+## Examples:
 
 ```javascript
 $(document).ready(function() {
@@ -34,5 +34,5 @@ Philip
 
 
 
-Current TODO List
+## Current TODO List
 Improve this README to support proper markdown and be formatted nicely.
