@@ -8,19 +8,22 @@ After noticing that Facebook came up with a better solution, I figured I'd make 
 
 Examples:
 
+```javascript
 $(document).ready(function() {
 	$('.custom-scrollbar').custom_scrollbar();
 });
+```
 
 OR
 
+```javascript
 var options = {scrollbarClassName: 'red-background', scrollbarTrackColor: 'transparent'};
 			
 $(document).ready(function() {
 	$('.custom-scrollbar').custom_scrollbar();
 	$('.red-custom-scrollbar').custom_scrollbar(options);
 });
-
+```
 
 Also look at examples.html to see these examples in action.
 
