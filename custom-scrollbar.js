@@ -92,8 +92,16 @@
 			contentDiv.css('width', contentWidth);
 			contentWrapperDiv.css('height', $(this).height());
 			
-			var scrollbarHeight = $(this).height() / contentDiv.height() * $(this).height();
-			scrollbarDiv.css('height', scrollbarHeight);
+			var scrollbarHeight;
+			// only make the scrollbar visible if there is a height
+            if (contentDiv.height() > $(this).height()) {
+                scrollbarHeight = $(this).height() / contentDiv.height() * $(this).height();
+				scrollbarTrackDiv.show();
+            } else {
+                scrollbarHeight = 0;
+				scrollbarTrackDiv.hide();
+            }
+            scrollbarDiv.css('height', scrollbarHeight);
 			
 			// to initialize the positioning of the scrollbar
 			contentWrapperDiv.scroll();
