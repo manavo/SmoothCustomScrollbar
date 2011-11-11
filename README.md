@@ -27,6 +27,10 @@ $(document).ready(function() {
 
 Also look at examples.html to see these examples in action.
 
+## Screenshots
+
+![Examples Screenshot](https://github.com/manavo/SmoothCustomScrollbar/raw/master/screenshot.png "Examples Screenshot")
+
 Looking forward to any feedback you may have!
 
 Thanks,
