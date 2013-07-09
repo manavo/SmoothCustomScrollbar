@@ -1,3 +1,9 @@
+/*!
+ * custom-scrollbar.js by @manavo
+ * Custom scrollbars in divs, leveraging native scrollbars behind the scenes.
+ * v0.2
+ * MIT license - http://opensource.org/licenses/MIT
+ */
 (function($) {
     $.fn.custom_scrollbar = function(options) {
         var config = $.fn.custom_scrollbar.config;
