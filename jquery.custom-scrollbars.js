@@ -125,7 +125,7 @@
                 scrollbarDiv = scrollbarTrackDiv.find('div.' + scrollbarClassName);
             }
 
-            scrollbarTrackDiv.css('left', contentWidth + scrollbarTrackSpacing);
+            scrollbarTrackDiv.css('right', 0);
 
             contentDiv.css('width', contentWidth);
             contentWrapperDiv.css('height', $(this).height());
