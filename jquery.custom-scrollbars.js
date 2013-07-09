@@ -29,7 +29,7 @@
             var scrollbarTrackDiv;
             var scrollbarDiv;
 
-            var contentWidth = ($(this).width() - scrollbarWidth - scrollbarTrackSpacing);
+            var contentWidth = $(this).outerWidth();
 
             // if the first child isn't our content wrapper, create it
             if (wrapperDiv.length == 0) {
