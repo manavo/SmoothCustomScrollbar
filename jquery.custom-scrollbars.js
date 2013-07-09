@@ -73,6 +73,9 @@
                         // clicked below the scrollbar
                         contentWrapperDiv.scrollTop(contentWrapperDiv.scrollTop()+scrollJump);
                     }
+
+                    e.preventDefault();
+                    e.stopPropagation();
                 });
 
                 // scrollbar initialization
