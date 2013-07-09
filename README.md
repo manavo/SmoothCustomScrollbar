@@ -1,6 +1,6 @@
 # SmoothCustomScrollbar
 
-Made by Philip Manavopoulos, 2011
+Made by Philip Manavopoulos, 2013
 
 I found myself wanting to have completely customized scrollbars in a site I was working on. I found a bunch of jQuery plugins that offered just that, which worked pretty well. However, I didn't like the fact that they used javascript to alter the CSS properties and make the scrolling less smooth (noticeable especially on OSX since the scroll isn't incremental on the mouse wheel).
 
@@ -45,7 +45,7 @@ Philip
 
 The MIT License
 
-Copyright (c) 2012, Philip Manavopoulos <@manavo>
+Copyright (c) 2013, Philip Manavopoulos <@manavo>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
